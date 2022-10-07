@@ -1,12 +1,12 @@
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
+  // const { theme, setTheme } = useContext(ThemeContext);
   return (
-    <div className="dark">
-      <h1 className="text-center text-white bg-green-600 dark:bg-red-600 font-bold text-2xl p-8">
-        Welcome to Fylo Tailwind React Project
-      </h1>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 

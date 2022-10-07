@@ -34,6 +34,7 @@ const ThemeProvider = ({ initialTheme, children }) => {
   useEffect(() => {
     checkTheme(theme);
   }, [theme]);
+
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
