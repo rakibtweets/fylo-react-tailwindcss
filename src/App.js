@@ -1,11 +1,12 @@
 import './App.css';
 import Header from './components/Header/Header';
+import HeroBanner from './components/HeroBanner/HeroBanner';
 
 function App() {
-  // const { theme, setTheme } = useContext(ThemeContext);
   return (
     <>
       <Header />
+      <HeroBanner />
     </>
   );
 }
