@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-12 right-10">
       <a
-        href="#features"
+        href="/#features"
         className="hover:text-accentCyan">
         Features
       </a>

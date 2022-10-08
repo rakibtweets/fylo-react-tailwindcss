@@ -28,9 +28,9 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section
-      id="#testimonials"
+      id="testimonials"
       className="bg-gray-50 dark:bg-darkBlue">
-      <div className="container mx-auto px-6 pt-t pb-80 md:pb-96">
+      <div className="container mx-auto px-6 pt-6 pb-80 md:pb-96 md:mt-24">
         {/* Boxes container */}
         <div className="relative flex flex-col w-full space-y-6 md:space-y-0 md:flex-row md:space-x-12">
           {/* Quotes image */}

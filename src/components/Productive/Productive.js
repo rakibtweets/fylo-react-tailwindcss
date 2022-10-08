@@ -3,7 +3,7 @@ import React from 'react';
 const Productive = () => {
   return (
     <section
-      id="#productive"
+      id="productive"
       className="bg-white dark:bg-darkBlue">
       <div className="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16">
         {/* img */}

@@ -3,7 +3,7 @@ import React from 'react';
 const Features = () => {
   return (
     <section
-      id="#features"
+      id="features"
       className="pt-12 bg-gray-50 dark:bg-darkBlue1">
       <div className="container mx-auto px-6 pb-32">
         <div className="grid grid-cols-1 text-center md:grid-cols-2 gap-16">
