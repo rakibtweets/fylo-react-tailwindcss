@@ -33,7 +33,7 @@ const Productive = () => {
           {/* Link */}
           <div className="block mt-4">
             <a
-              href="#hero"
+              href="#header"
               className="border-b border-accentCyan text-accentCyan flex flex-row space-x-1">
               <span> See how Fylo works</span>
               <img
